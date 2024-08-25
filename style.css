@@ -68,10 +68,19 @@ body {
 
 main {
     display: flex;
+    width: 1120px;
+    gap: 30px;
 }
 
 .sidebar-card {
     width: 256px;
     height: 294px;
     background-color: var(--cinza);
+    border-radius: 8px;
+}
+
+.content {
+    width: 621px;
+    background-color: var(--cinza);
+    border-radius: 8px;
 }
