@@ -40,13 +40,16 @@
                 </form>
             </div>    
         </div>
+        
+        <div class="container">
+            <section class="content">
+                
+            </section> 
+            <section class="content">
+                <canvas id="myChart"></canvas>
+            </section> 
+        </div>
 
-        <section class="content">
-            
-        </section> 
-        <section class="content">
-            <canvas id="myChart"></canvas>
-        </section> 
     </main>
 
 
