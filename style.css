@@ -102,6 +102,7 @@ main {
 
 .content {
     width: 621px;
+    height: 310px;
     background-color: var(--cinza);
     border-radius: 8px;
 }
