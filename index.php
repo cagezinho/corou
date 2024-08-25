@@ -26,7 +26,7 @@
 
         <section class="content">
 
-        </section>
+        </section> 
     </main>
 
 </body>
