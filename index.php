@@ -42,6 +42,9 @@
         </div>
 
         <section class="content">
+            
+        </section> 
+        <section class="content">
             <canvas id="myChart"></canvas>
         </section> 
     </main>
@@ -57,7 +60,7 @@
         data: {
             labels: labels,
             datasets: [{
-                label: 'Vezes que a COROU pediu pra sair:',
+                label: 'Vezes que a COROU pediu pra sair',
                 data: data,
                 backgroundColor: 'rgba(75, 192, 192, 0.2)',
                 borderColor: 'rgba(75, 192, 192, 1)',
