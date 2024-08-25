@@ -17,11 +17,13 @@
     <main>
         <div class="sidebar">
             <div class="sidebar-card">
-                <form action="" method="post">
-                    <!-- preciso da data pra salvar no banco -->
+                <form class="form" action="contador.php" method="post">
+                    <input type="hidden" name="timestamp" value="<?php echo time(); ?>">
+                    <button type="submit" class="button-confirm">+</button>
                 </form>
-            </div>
+            </div>    
         </div>
+
         <section>
 
         </section>
