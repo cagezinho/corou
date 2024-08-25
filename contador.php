@@ -1,13 +1,15 @@
 <?php
     include('conexao.php');
 
+    // Captura o timestamp enviado pelo formulário
     $timestamp = mysqli_real_escape_string($conexao, $_POST['timestamp']);
 
-    $data = date('Y-m-d H:i:s', $timestamp);
+    // Converte o timestamp para o formato de data 'YYYY-MM-DD'
+    $data = date('Y-m-d', $timestamp);
 
     $inserir_data = "INSERT INTO
     corou
-    VALUE ('', '$date')";
+    VALUE ('', '$data')";
 
     $query_users = mysqli_query($conexao, $inserir_data);
 
