@@ -1,7 +1,9 @@
 <?php
     include('conexao.php');
 
-    $data = mysqli_real_escape_string($conexao, $_POST['timestamp']);
+    $timestamp = mysqli_real_escape_string($conexao, $_POST['timestamp']);
+
+    $data = date('Y-m-d H:i:s', $timestamp);
 
     $inserir_data = "INSERT INTO
     corou
