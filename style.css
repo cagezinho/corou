@@ -69,6 +69,14 @@ body {
     height: 100px;
     width: 100%;
     margin: 0 0 32px 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-h1 {
+    color: white;
 }
 
 main {
