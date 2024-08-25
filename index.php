@@ -42,13 +42,12 @@
         </div>
 
         <section class="content">
-
+            <canvas id="myChart"></canvas>
         </section> 
     </main>
-    <canvas id="myChart"></canvas>
+
 
 <script>
-    // Dados do PHP para JavaScript
     const labels = <?php echo json_encode($dates); ?>;
     const data = <?php echo json_encode($totals); ?>;
 
@@ -58,7 +57,7 @@
         data: {
             labels: labels,
             datasets: [{
-                label: 'Ocorrências por Dia',
+                label: 'Vezes que a COROU pediu pra sair:',
                 data: data,
                 backgroundColor: 'rgba(75, 192, 192, 0.2)',
                 borderColor: 'rgba(75, 192, 192, 1)',
